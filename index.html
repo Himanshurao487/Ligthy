@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lighty</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+    <section class="chat__section">
+        <ul>
+            <li><a href="#home">Let's unite</a></li>
+            <li style="float:right"><a class="active" href="#">The online stranger chatting app</a></li>
+        </ul>
+        <div class="brand">
+            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+            width="48" height="48"
+            viewBox="0 0 172 172"
+            style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,172v-172h172v172z" fill="none"></path><path d="M86,166.84c-44.6467,0 -80.84,-36.1933 -80.84,-80.84v0c0,-44.6467 36.1933,-80.84 80.84,-80.84v0c44.6467,0 80.84,36.1933 80.84,80.84v0c0,44.6467 -36.1933,80.84 -80.84,80.84z" fill="#b9decb"></path><g><path d="M72.95667,125.13h52.17333l19.565,19.565v-71.73833c0,-7.20318 -5.84015,-13.04333 -13.04333,-13.04333h-58.695c-7.20318,0 -13.04333,5.84015 -13.04333,13.04333v39.13c0,7.20318 5.84015,13.04333 13.04333,13.04333" fill="#1565c0"></path><path d="M102.30417,92.52167h-55.43417l-19.565,19.565v-71.73833c0,-7.20318 5.84015,-13.04333 13.04333,-13.04333h61.95583c7.20318,0 13.04333,5.84015 13.04333,13.04333v39.13c0,7.20318 -5.84015,13.04333 -13.04333,13.04333" fill="#2196f3"></path></g></g></svg>
+            <h1>Lighty</h1>
+        </div>
+        <div class="message__area"></div>
+        <div>
+            <textarea id="textarea" cols="30" rows="1" placeholder="Write a message..."></textarea>
+        </div>
+    </section>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="/client.js"></script>
+</body>
+
+</html>
